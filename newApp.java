@@ -115,7 +115,7 @@ public class newApp {
         
         
        QuestionPage page6 = new QuestionPage("Your date finally arrives. For the sake of honesty you decide to tell him exactly"
-               + "how you feel about the car. Comment away!"); 
+               + " how you feel about the car. Comment away!"); 
        
        //TODO: INSERT TEXT BOX
       
@@ -127,13 +127,13 @@ public class newApp {
        
        
        QuestionPage page7 = new QuestionPage("You cannot get your mind off the shiny white 2016 Audi (and your cute date ;))."
-               + "You wonder how much your date makes and decide to base his affluence off of how much you think the car is. "
-               + "What do you think your price of the car would be..."); 
+               + " You wonder how much your date makes and decide to base his affluence off of how much you think the car cost. "
+               + " What do you think your price of the car would be..."); 
        String a7 = "Audi2016.png"; 
        String wN7 = "https://www.cars.com/research/audi-a6-2016/"; 
        page7.printPicture(theme, a7);
        page7.imageDescription(wN7);
-       page7.setOptions(7,"$2,000 - $10,000","$10,000 - $50,000","$50,000 - $100,000","$100,000- %150,000");
+       page7.setOptions(7,"$2,000 - $10,000","$10,000 - $50,000","$50,000 - $100,000","$100,000- $150,000");
        
        
        
@@ -144,23 +144,23 @@ public class newApp {
        String wN8 = "http://www.macrumors.com/roundup/iphone-8/"; 
        page8.printPicture(theme, a8);
        page8.imageDescription(wN8);
-       page8.setOptions(8,"must have it. Plus it comes with a case that will strap to your arm when you go running","Probably"
-               + "will just buy that one. It is on display for a reason so it is probably the best. Plus it will save you time and effort"
-               + "walking around the store","Immediately start googling everything about the phone. You want to know the price, how much memory,"
+       page8.setOptions(8,"Must have it! Plus it comes with a case that will strap to your arm when you go running","Probably"
+               + " will just buy that one. It is on display for a reason so it is probably the best. Plus it will save you time and effort"
+               + " walking around the store","Immediately start googling everything about the phone. You want to know the price, how much memory,"
                        + " it contains, and all of its gadgets. EVERYTHING.","Continue to look around the store. You want the best phone for you and do"
-                               + "not like the store trying to persuade you to only one brand.");
+                               + " not like the store trying to persuade you to only one brand.");
      
        
        
        
        
        QuestionPage page9 = new QuestionPage("It has been a long day of endlessly working hard. You have been dreaming of this moment all day long. You see your bed."
-               + "Based on the SFERRA linens alone, how excited are you to flop down on your bed?");
+               + " Based on the SFERRA linens alone, how excited are you to flop down on your bed?");
        String a9 = "bed.png"; 
        String wN9 = "https://www.sferra.com/bedding/duvet-covers/ambra-duvet-cover-white-sable"; 
        page9.printPicture(theme, a9);
        page9.imageDescription(wN9);
-       page9.setOptions(9,"Not a chance. Would strictly be because you want to sleep. ","Ehh. I guess i is alright. I am sleepy anyway","Looks pretty good to me!","AWESOME. BEAUTIFUL");
+       page9.setOptions(9,"Not a chance. Would strictly be because you want to sleep. ","Ehh. I guess it is alright. I am sleepy anyway","Looks pretty good to me!","AWESOME. BEAUTIFUL");
        
 
         
